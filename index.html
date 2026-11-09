@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timer web app</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Timer</h1><hr>
+	<div id="userInputs">
+		<label for="timerDuration">Timer duration:</label>
+		<input type="number" id="timerDuration"><br><br>
+		<label for="breakDuration">Break duration:</label>
+	        <input type="number" id="breakDuration"><hr>
+	</div>
+	<div id="timerDisplay">
+		<p id="timerCountdownDisplay">00:00</p>
+		<div>
+			<button id="startButton">Start</button>
+			<button id="stopButton">Stop</button>
+			<button id="resetButton">Reset</button>
+		</div>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>
+<script src="script.js"></script>
+</body>
+</html>
