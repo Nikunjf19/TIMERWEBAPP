@@ -3,9 +3,28 @@ body{
 }
 #timerDisplay{
 	background-color: hsl(60, 100%,100%);
-	height: 80vh;
+	height: 70vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+#timerCountdownDisplay{
+	font-size: 7em;
+}
+.controlButtons{
+	font-size: 2.5em;
+	height: 75px;
+	width: 200px;
+	border: none;
+	border-radius: 20px;
+}
+#startButton{
+	background-color: hsl(110,100%,50%);
+}
+#stopButton{
+        background-color: hsl(0,100%,50% );
+}
+#resetButton{
+        background-color: hsl(252,100%,50%);
 }

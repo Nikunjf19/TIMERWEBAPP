@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Timer web app</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css?v3">
 </head>
 <body>
 	<h1>Timer</h1><hr>
@@ -14,14 +14,14 @@
 	</div>
 	<div id="timerDisplay">
 		<p id="timerCountdownDisplay">00:00</p>
-		<div>
-			<button id="startButton">Start</button>
-			<button id="stopButton">Stop</button>
-			<button id="resetButton">Reset</button>
+		<div id="controlButtons">
+			<button id="startButton" class="controlButtons">Start</button>
+			<button id="stopButton" class="controlButtons">Stop</button>
+			<button id="resetButton" class="controlButtons">Reset</button>
 		</div>
 	</div>
 <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
 <script>eruda.init();</script>
-<script src="script.js"></script>
+<script src="script.js?v3"></script>
 </body>
 </html>
